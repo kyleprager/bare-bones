@@ -68,6 +68,9 @@ jQuery(document).ready(function($) {
 	
 	// add all your scripts here
 	
+	// Setup the nivo-slider (HTML for it is in header.php)
+    $('#slider').nivoSlider();
+	
  
 }); /* end of as page load scripts */
 
