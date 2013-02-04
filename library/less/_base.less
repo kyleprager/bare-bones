@@ -35,10 +35,13 @@ and will be used across all viewports.
 *********************/
 
 body {
-	font-family: @serif;
+//	font-family: @serif;
+    font-family: @sans-serif;
+    font-weight: 400;
 	font-size: 100%;
 	line-height: 1.5;
 	color: #565656;
+	background: url("../images/pikes-place.jpg") none repeat scroll 0 0 #bfbfbf;
 }
 
 /********************
@@ -124,7 +127,8 @@ a, a:visited {
 ******************************************************************/
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
-	font-family: @sans-serif;
+// 	font-family: @sans-serif;
+    font-family: @googlefont-grand-hotel;
 	text-rendering: optimizelegibility;
 	font-weight: 400;
 	/*
@@ -136,30 +140,33 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 	a {
 		text-decoration: none;
 	}
+	
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 h1, .h1 {
-	font-size: 2.5em;
+	font-size: 3.5em;
 	line-height: 1.333em;
 }
 
 h2, .h2 {
-	font-size: 1.75em;
+	font-size: 2.75em;
 	line-height: 1.4em;
 	margin-bottom: 0.375em;
 }
 
 h3, .h3 {
-	font-size: 1.125em;
+	font-size: 2.125em;
 }
 
 h4, .h4 {
-	font-size: 1.1em;
-	font-weight: 700;
+	font-size: 2.1em;
+	font-weight: 400;
 }
 
 h5, .h5 {
-	font-size: 0.846em;
+	font-size: 1.846em;
 	line-height: 2.09em;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -175,7 +182,11 @@ h5, .h5 {
 	#logo {}
 
 	nav {
+    	.boxShadow(0px, 1px, 5px, 0px, #4a4a4a);
+
 		ul.nav {
+		    
+		    
 			li {
 				a {}
 
@@ -202,6 +213,7 @@ and more scalable.
 .nav {
 	border: 1px solid #ccc;
 	border-bottom: 0;
+	background-color: #fff;
 
 	li {
 
@@ -209,7 +221,7 @@ and more scalable.
 			display: block;
 			text-decoration: none;
 			padding: 10px 10px;
-			background-color: #eee;
+			background-color: #fff;
 			border-bottom: 1px solid #ccc;
 
 			/*
@@ -278,7 +290,12 @@ and more scalable.
 #content {
 	margin-top: 2.2em;
 
-	#inner-content {}
+	#inner-content {
+	    background-color: #fff;
+	    padding-left: 1em;
+	    padding-top: 1em;
+	    .boxShadow(0px, 1px, 5px, 0px, #4a4a4a);
+	}
 }
 
 		.hentry {

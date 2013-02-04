@@ -76,8 +76,10 @@ http://sachagreif.com/sass-color-variables/
 TYPOGRAPHY
 *********************/
 
-@sans-serif:         "Helvetica Neue", Helvetica, Arial, sans-serif; 
+//@sans-serif:         "Helvetica Neue", Helvetica, Arial, sans-serif; 
+@sans-serif:         "Open Sans", sans-serif; 
 @serif:              "Georgia", Cambria, Times New Roman, Times, serif; 
+@googlefont-grand-hotel: "Grand Hotel", cursive;
 
 
 /* 	To embed your own fonts, use this syntax
@@ -162,7 +164,13 @@ USAGE: .border-radius(4px);
      -moz-border-radius: @radius;
           border-radius: @radius;
 }
-
+.rounded-corners (@radius: 10px) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  -ms-border-radius: @radius;
+  -o-border-radius: @radius;
+  border-radius: @radius;
+}
 
 /*********************
 TRANISTION

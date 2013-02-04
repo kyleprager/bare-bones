@@ -162,4 +162,11 @@ function bones_wpsearch($form) {
 } // don't remove this bracket!
 
 
+function wptuts_googlefonts_styles() {
+    // Enqueue the font stylesheets like this:
+    wp_enqueue_style( 'googlefonts-grand-hotel', 'http://fonts.googleapis.com/css?family=Grand+Hotel' );
+    wp_enqueue_style( 'googlefonts-sans', 'http://fonts.googleapis.com/css?family=Open+Sans' );
+}  
+add_action( 'wp_enqueue_scripts', 'wptuts_googlefonts_styles' );
+
 ?>
