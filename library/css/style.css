@@ -778,7 +778,7 @@ body {
   font-size: 100%;
   line-height: 1.5;
   color: #565656;
-  background: url("../images/pikes-place.jpg") none repeat scroll 0 0 #bfbfbf;
+  background-color: #fffcf5;
 }
 /********************
 02. WORDPRESS BODY CLASSES
@@ -941,7 +941,9 @@ and more scalable.
 .nav {
   border: 1px solid #ccc;
   border-bottom: 0;
-  background-color: #fff;
+  background-color: #fef2d4;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fef7e5), to(#fde3a2));
+  background: -moz-linear-gradient(top, #fef7e5, #fde3a2);
   /* end .menu li */
 
   /* highlight current page */
@@ -963,8 +965,11 @@ and more scalable.
   display: block;
   text-decoration: none;
   padding: 10px 10px;
-  background-color: #fff;
   border-bottom: 1px solid #ccc;
+  text-shadow: 2px 2px 3px #000000;
+  background-color: #fef2d4;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fef7e5), to(#fde3a2));
+  background: -moz-linear-gradient(top, #fef7e5, #fde3a2);
   /*
 			remember this is for mobile ONLY, so there's no need
 			to even declare hover styles here, you can do it in
@@ -985,7 +990,7 @@ and more scalable.
   margin-top: 2.2em;
 }
 #content #inner-content {
-  background-color: #fff;
+  background-color: #fef2d4;
   padding-left: 1em;
   padding-top: 1em;
   -webkit-box-shadow: 0px 1px 5px 0px #4a4a4a;

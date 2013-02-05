@@ -41,7 +41,7 @@ body {
 	font-size: 100%;
 	line-height: 1.5;
 	color: #565656;
-	background: url("../images/pikes-place.jpg") none repeat scroll 0 0 #bfbfbf;
+	background-color: #fffcf5;
 }
 
 /********************
@@ -213,7 +213,9 @@ and more scalable.
 .nav {
 	border: 1px solid #ccc;
 	border-bottom: 0;
-	background-color: #fff;
+	background-color: @bgcolor;
+	background: -webkit-gradient(linear, left top, left bottom, from(#FEF7E5), to(#FDE3A2));
+    background: -moz-linear-gradient(top,  #FEF7E5,  #FDE3A2);
 
 	li {
 
@@ -221,8 +223,11 @@ and more scalable.
 			display: block;
 			text-decoration: none;
 			padding: 10px 10px;
-			background-color: #fff;
 			border-bottom: 1px solid #ccc;
+			text-shadow: 2px 2px 3px #000000;
+			background-color: @bgcolor;
+			background: -webkit-gradient(linear, left top, left bottom, from(#FEF7E5), to(#FDE3A2));
+            background: -moz-linear-gradient(top,  #FEF7E5,  #FDE3A2);
 
 			/*
 			remember this is for mobile ONLY, so there's no need
@@ -291,7 +296,7 @@ and more scalable.
 	margin-top: 2.2em;
 
 	#inner-content {
-	    background-color: #fff;
+	    background-color: @bgcolor;
 	    padding-left: 1em;
 	    padding-top: 1em;
 	    .boxShadow(0px, 1px, 5px, 0px, #4a4a4a);

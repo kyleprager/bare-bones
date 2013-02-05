@@ -7,8 +7,8 @@
                     <div id="slider-wrapper" class="slider-wrapper theme-default">
                         <div id="slider" class="nivoSlider">
                             <img src="<?php echo get_template_directory_uri(); ?>/library/js/nivo-slider/demo/images/toystory.jpg"  />
-                            <img src="<?php echo get_template_directory_uri(); ?>/library/js/nivo-slider/demo/images/walle.jpg"  />
-                            <img src="<?php echo get_template_directory_uri(); ?>/library/js/nivo-slider/demo/images/nemo.jpg"  />
+                            <!-- <img src="<?php echo get_template_directory_uri(); ?>/library/js/nivo-slider/demo/images/walle.jpg"  />
+                            <img src="<?php echo get_template_directory_uri(); ?>/library/js/nivo-slider/demo/images/nemo.jpg"  /> -->
                         </div>
                     </div>
                 </div>
